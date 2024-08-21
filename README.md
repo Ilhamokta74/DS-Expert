@@ -1,7 +1,5 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
-<img src="https://raw.githubusercontent.com/AbiyaMakruf/Dicoding-MenyelesaikanPermasalahanHumanResources/main/images/nilai.png" width="500">
-
 Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
 1. Memberikan beberapa rekomendasi action items untuk yang dapat diikuti oleh perusahaan untuk mencapai target mereka.
 2. Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
