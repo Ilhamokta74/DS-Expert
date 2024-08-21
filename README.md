@@ -1,14 +1,9 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
-Kriteria tambahan yang saya kerjakan sehingga mendapat nilai terbaik:
+Kriteria tambahan yang saya kerjakan:
 1. Memberikan beberapa rekomendasi action items untuk yang dapat diikuti oleh perusahaan untuk mencapai target mereka.
 2. Membuat visualisasi data yang baik dan efektif dengan menerapkan prinsip desain dan integritas.
 3. Membuat model machine learning untuk membantu departemen HR. Pastikan Anda membuat script Python sederhana untuk menjalankan proses prediksi.
-
-Kriteria tambahan yang tidak saya kerjakan:
-1. Membuat video singkat (maksimal 5 menit). Video tersebut harus menjelaskan beberapa poin berikut.
-    - Menjelaskan business dashboard yang telah dibuat.
-    - Menjelaskan kesimpulan atau conclusion dari dashboard tersebut.
 
 ## Business Understanding
 Jaya Jaya Maju merupakan perusahaan multinasional yang berdiri sejak tahun 2000, dengan lebih dari 1000 karyawan yang tersebar di seluruh negeri. Meskipun perusahaan ini telah berkembang menjadi cukup besar, mereka masih menghadapi tantangan signifikan dalam mengelola karyawannya. Salah satu dampak utama dari tantangan ini adalah tingginya *attrition rate*, yaitu rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan, yang mencapai lebih dari 10%. Tingginya *attrition rate* ini mengindikasikan adanya masalah dalam mempertahankan karyawan, yang dapat berdampak negatif pada produktivitas, biaya rekrutmen, dan stabilitas operasional perusahaan.
@@ -45,20 +40,6 @@ Sumber data: dataset yang digunakan merupakan dataset [Jaya Jaya Maju](https://g
     docker run -p 3000:3000 --name metabase metabase/metabase
     ```
     Akses metabase pada http://localhost:3000/setup dan lakukan setup.
-* Setup database (supabase):
-
-    * Buat akun dan login https://supabase.com/dashboard/sign-in.
-    * Buat new project
-    * Copy URI pada database setting
-    * Kirim dataset menggunakan sqlalchemy 
-    ```python
-    from sqlalchemy import create_engine
- 
-    URL = "DATABASE_URL"
-    
-    engine = create_engine(URL)
-    df.to_sql('orders', engine)
-    ```
 
 ## Business Dashboard
 
